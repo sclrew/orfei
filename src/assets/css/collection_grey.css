@@ -1,0 +1,9 @@
+.collection_grey{
+    height: 750px;
+    padding-top: 87px; 
+    padding-left: 164px;
+    padding-right: 164px;
+    display: flex;
+    justify-content: space-between;
+
+}

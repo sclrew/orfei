@@ -1,0 +1,59 @@
+.header_main{
+    position: relative;
+    height: 648px;
+    overflow: hidden;
+}
+
+.header_main_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+    padding-left: 346px;
+    padding-right: 346px;
+}
+
+.header_main_menu_item{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.header_main_title{
+    padding-top: 235px;
+    padding-left: 168px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.header_main_button{
+    cursor: pointer;
+    padding-top: 31px;
+    padding-left: 168px;
+    transition: 0.5s ease-in-out;
+}
+
+.header_main_button:hover{
+    padding-top: 35px;
+}
+
+.header_main_bg_wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.header_main_bg{
+    height: 100%;
+}
+

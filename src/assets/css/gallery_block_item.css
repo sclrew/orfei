@@ -1,0 +1,48 @@
+
+.gallery_item_img{
+    width: 500px;
+    height: 450px;
+}
+
+.gallery_item_img_wrapper{
+    position: relative;
+    width: 500px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.gallery_item_img{
+    position: absolute;
+    height: 100%;
+    left: -50%;
+    top: -50%;
+    transform: translate(50%, 50%);
+}
+
+.gallery_item_icon{
+    transform: rotate(-90deg);
+}
+
+.gallery_item_title{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 13px;
+}
+
+.gallery_item_author{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 3px;
+}
+
+.gallery_item_icon_wrapper{
+    margin-top: 27px;
+}

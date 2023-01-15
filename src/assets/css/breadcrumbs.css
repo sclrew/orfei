@@ -1,0 +1,18 @@
+.breadcrumbs{
+    height: 95px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.breadcrumbs a{
+    color: unset;
+    text-decoration: unset;
+}

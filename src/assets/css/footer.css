@@ -1,0 +1,128 @@
+.footer{
+    background-color: white;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 124px;
+    
+}
+
+.footer_bottom_prava{
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.footer_bottom_year{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.footer_bottom_year span{
+    color: #42BA85;
+}
+
+.footer_bottom_author{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.footer_top{
+    height: 750px;
+    display: flex;
+}
+
+.footer_top_left{
+    position: relative;
+    flex: 1;
+}
+
+.footer_top_left_title{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    padding-top:30px;
+    padding-left: 167px;
+}
+
+.footer_top_left_menu{
+    position: absolute;
+    right: 102px;
+    top: 277px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_menu_item{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.footer_menu_item.active{
+    color: #42BA85;
+}
+
+.footer_top_right{
+    flex: 1;
+    border-left:1px solid rgba(0, 0, 0, 0.2);
+    
+}
+.footer_top_right_social_icons{
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 170px;
+}
+
+.footer_top_right_social_icons img{
+    padding-left: 32px;
+}
+
+.footer_top_right_menu{
+    display: flex;
+    flex-direction: column;
+    margin-top:210px;
+    margin-left: 188px;
+}
+
+.footer_top_right_splitter{
+    margin-top:51px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer_top_right_text{
+    padding-left:110px;
+    padding-right: 180px;
+    padding-top:90px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}

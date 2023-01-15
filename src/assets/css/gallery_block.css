@@ -1,0 +1,11 @@
+.gallery_block{
+    padding-left: 158px;
+    padding-right: 158px;
+    height: 750px;
+}
+
+.gallery_block_content{
+    display: flex;
+    justify-content: space-between;
+    
+}

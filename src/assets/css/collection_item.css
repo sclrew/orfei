@@ -1,0 +1,32 @@
+.collection_item_img_wrapper{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.collection_item_img{
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 100%;
+    transform: translate(50%, 50%);
+}
+
+.collection_item_title{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+
+.collection_item_icon{
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+

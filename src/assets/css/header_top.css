@@ -1,0 +1,60 @@
+.header{
+    padding-left: 166px;
+    padding-right: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.logo span{
+    display: block;
+    font-size: 18px;
+    padding-left:7px;
+    padding-right: 7px;
+}
+
+.search{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.search_icon{
+    height: 16px;
+    width: 16px;
+    padding-left: 7px;
+    transition: 0.5s ease-in-out;
+}
+.search_icon:hover{
+    cursor: pointer;
+    padding-left: 3px;
+    height: 20px;
+    width: 20px;
+}
+
+.lang{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000;
+}
+.lang .active{
+    color: var(--green);
+}

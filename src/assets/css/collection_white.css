@@ -1,0 +1,22 @@
+.collection_white{
+    background-color: white;
+    height: 750px;
+    padding-left: 164px;
+    padding-right: 164px;
+}
+
+.collection_white_title{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.collection_white_items{
+    display: flex;
+    justify-content: space-between;
+}
